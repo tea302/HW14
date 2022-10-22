@@ -102,18 +102,3 @@ if __name__ == '__main__':
 
 
 
-
-
-
-#     cursor = connection.cursor()
-#     query = """
-#     SELECT DISTINCT title
-#     FROM netflix
-#     ORDER BY release_year DESC
-#     LIMIT 1
-#     """
-# result = cursor.execute(query)
-# connection.close()
-#
-# if __name__ == '__main__':
-#     print(result)
